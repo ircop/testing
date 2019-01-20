@@ -1,0 +1,8 @@
+syntax = "proto3";
+package proto2;
+
+import "proto3enum/e.proto";
+
+message Enum2 {
+	proto3enum.TestEnum testE = 1;
+}
